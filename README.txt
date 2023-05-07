@@ -1,6 +1,7 @@
 README
 INSTRUCTIONS FOR CREATING CONDA ENVIRONMENT ON CLUSTER
 1. FROM SHELL, ENTER conda create -n mentalhealth pytorch huggingface_hub transformers IN COMMAND PROMPT
+                                    ^NAME OF ENV^  ^LIBRARIES REQUESTED TO BE IN ENV^
 2. ENTER y WHEN PROMPTED (y/n)?
 3. ACTIVATE THE CONDA ENVIRONMENT USING conda activate mentalhealth
 4. INSTALL THE KERNEL USING conda install ipykernel
