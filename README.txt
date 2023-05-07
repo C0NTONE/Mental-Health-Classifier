@@ -1,3 +1,9 @@
-Hi, This is the repo directory for our project! 
-Please edit this to replace it with a real README
-Alright I updated the README to test if Rosie is able to sync
+README
+INSTRUCTIONS FOR CREATING CONDA ENVIRONMENT ON CLUSTER
+1. FROM SHELL, ENTER conda create -n mentalhealth pytorch huggingface_hub transformers IN COMMAND PROMPT
+2. ENTER y WHEN PROMPTED (y/n)?
+3. ACTIVATE THE CONDA ENVIRONMENT USING conda activate mentalhealth
+4. INSTALL THE KERNEL USING conda install ipykernel
+5. CHOOSE y IF PROMPTED (y/n)?
+6. TO CREATE AN ACCESSIBLE KERNEL FROM JUPYTER NOTEBOOK, ENTER ipython kernel install --user --name=mental_health_env
+7. TO USE ENVIRONMENT, OPEN JUPYTER NOTEBOOK FROM CLUSTER, HIT 'New' IN THE TOP RIGHT CORNER, AND CHOOSE THE CREATED KERNEL
